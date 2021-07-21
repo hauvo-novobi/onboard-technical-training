@@ -1,0 +1,20 @@
+Create parking lot. Capacity is 6
+park HR-11-H-1234 White: successful. The number slot is 1
+park HR-11-AA-9923 White: successful. The number slot is 2
+park HR-11-BB-0031 Black: successful. The number slot is 3
+park HR-13-DH-7237 Red: successful. The number slot is 4
+park HR-15-DH-2731 Blue: successful. The number slot is 5
+park HR-11-RH-3231 Black: successful. The number slot is 6
+Status: full
+Leave successful. The slot 4 is available.
+Status: ready
+Leave successful. The slot 2 is available.
+Leave unsuccessful. The slot 20 doesn't have car.
+Status: ready
+park HR-01-PA-4333 White: successful. The number slot is 2
+park DL-12-AA-8999 Black: successful. The number slot is 4
+Status: full
+registration_numbers_for_cars_with_colour White: ['HR-11-H-1234', 'HR-01-PA-4333']
+slot_numbers_for_cars_with_colour White: [1, 2]
+slot_number_for_registration_number HR-11-RH-3231: 6
+slot_number_for_registration_number DL-12-AA-8999: 4
